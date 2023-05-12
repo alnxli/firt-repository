@@ -1,0 +1,50 @@
+#container{
+    background-color:blue;
+   /* padding: 10px; */
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+   /* width: 500px; */
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.item{
+    margin: 5px 5px;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    background-color: aqua;
+}
+
+#item-1{
+    background-color: bisque;
+    font-size: 80px;
+    order: 4;
+
+}
+
+#item-2{
+    background-color: blueviolet;
+    font-size: 45px;
+    order: 5;
+}
+
+#item-3{
+    background-color: gold;
+    font-size: 50px;
+    order: 1
+}
+
+#item-4{
+    background-color: pink;
+    font-size: 65px;
+    order: 3;
+}
+
+#item-5{
+    background-color: crimson;
+    font-size: 78px;
+    order: 2;
+}

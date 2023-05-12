@@ -1,0 +1,74 @@
+
+
+.transição3{
+    margin: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: all;
+}
+
+.transição{
+    width: 100px;
+    height: 200px;
+    transition: all 2s;
+    background-color: aqua;
+}
+
+.transição:hover{
+    width: 200px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+#animar{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    from { 
+        color: brown;
+    }
+
+    to {
+        color: aqua;
+    }
+}
+
+.caixa-animada{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    animation-name: efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes efeito {
+    0%{
+        width: 100px;     
+    }
+
+    25%{
+        width: 300px;
+    }
+
+    50%{
+        width: 200px;
+        background-color: gold;
+    }
+
+    75%{
+        width: 300px;
+    }
+
+    100%{
+        width: 100px;
+        background-color: pink;
+    }
+
+}
+
