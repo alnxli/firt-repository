@@ -29,11 +29,11 @@
 
 @keyframes aparecer {
     from { 
-        color: brown;
+        color: red;
     }
 
     to {
-        color: aqua;
+        color: blue;
     }
 }
 

@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    padding-bottom: 200px;
+}
+
+#grade3{
+        display: grid;
+        grid-template-columns: repeat(5, 100px);
+        grid-template-rows: repeat(3, 100px);
+        grid-gap: 5px;
+        grid-template-areas:
+            "verde verde azul azul azul"
+            "verde verde laranja laranja laranja amarelo"
+            "vinho vinho laranja laranja larajna roxo"
+        ;
+
+
+.azul{
+    grid-area: azul;
+    background-color: blue;
+}
+.radius{
+    border-radius: 10px;
+}
+.amarelo{
+    grid-area: amarelo;
+    background-color: gold;
+}
+.verde{
+    grid-area: verde;
+    background-color: green;
+}
+.vinho{
+    grid-area: vinho;
+    background-color: rgb(71, 10, 10);
+}
+.roxo{
+    grid-area: roxo;
+    background-color: purple;
+}
+.laranja{
+    grid-area: laranja;
+    background-color: orange;
+}}

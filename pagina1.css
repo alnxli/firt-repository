@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    display: flex;
+    height: 600px;
+}
+
+nav{
+    background-color: aquamarine;
+    width: 20%;
+}
+
+main{
+   width: 80%;
+}
+
+header{
+    background-color: gold;
+    height: 10%;
+}
+
+article{
+    background-color: blueviolet;
+    width: 60%;
+}
+
+aside{
+    background-color: darkblue;
+    width: 40%;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+footer{
+    background-color: rgb(6, 92, 167);
+    height: 10%;
+}
